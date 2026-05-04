@@ -11,5 +11,5 @@ The Broccoins service is reserved for the Broccoins domain: currency, rewards, b
 ## Ownership Boundary
 
 - Keep Broccoins-specific domain logic, storage, and contracts inside this service.
-- Do not move currency or reward rules into `common-lib`.
+- Do not move currency or reward rules into `common`.
 - Make cross-service contracts explicit before integrating Broccoins with another service.
